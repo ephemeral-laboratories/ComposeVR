@@ -1,0 +1,8 @@
+[versions]
+lwjgl = "3.3.1"
+
+[libraries]
+lwjgl = {module = "org.lwjgl:lwjgl", version.ref = "lwjgl"}
+lwjgl-glfw = {module = "org.lwjgl:lwjgl-glfw", version.ref = "lwjgl"}
+lwjgl-opengl = {module = "org.lwjgl:lwjgl-opengl", version.ref = "lwjgl"}
+lwjgl-openvr = {module = "org.lwjgl:lwjgl-openvr", version.ref = "lwjgl"}
